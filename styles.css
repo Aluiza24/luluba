@@ -1,0 +1,57 @@
+.texto-principal {
+    font-family: 'milky';
+    font-size; 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hip-hop {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@font-face {
+    font-family:'milky' ;
+    src: url('MilkyVintage-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'vibes';
+    src: url(Music\ Vibes.otf); format('tretype');
+}
+
+
+body {
+    color: brown;
+    background: rgb(239, 239, 186);
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section > div {
+    text-align: center;
+}
+
+section > div > h1 {
+    font-family: 'milky';
+    font-size: 30px;
+}
+
+.titulo {
+    font-family: 'vibes';
+    font-size: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(216, 158, 110);
+    border-radius: 100px;
+}
+*{
+     
+     box-sizing: border-box;
+}
